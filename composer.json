@@ -1,6 +1,6 @@
 {
     "name": "zendframework/skeleton-application",
-    "description": "Skeleton Application for ZF2",
+    "description": "Skeleton Application for ZF2,jhonmike/zf2-base, jhonmike/zf2-acl, jhonmike/zf2-user",
     "license": "BSD-3-Clause",
     "keywords": [
         "framework",
@@ -12,8 +12,6 @@
         "zendframework/zendframework": "2.3.*",
         "doctrine/doctrine-orm-module": "0.*",
         "hounddog/doctrine-data-fixture-module": "0.0.*",
-        "jhonmike/zf2-base": "dev-master",
-        "jhonmike/zf2-acl": "dev-master",
-        "jhonmike/zf2-user": "dev-master"
+        "zendframework/zend-developer-tools": "dev-master"
     }
 }

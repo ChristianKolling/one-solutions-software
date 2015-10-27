@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a07e770a07be50815813cd7db65ffcbb",
-    "content-hash": "4d59e8c4e89f9896c96e77292871ae28",
+    "hash": "7be5e41b0aa94152358effe77df4e9a5",
+    "content-hash": "f2c886eeccf840dd83d883d6dd2e477c",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -872,156 +872,6 @@
             "time": "2013-12-12 15:42:53"
         },
         {
-            "name": "jhonmike/zf2-acl",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jhonmike/Zf2Acl.git",
-                "reference": "32cdab0155915b120c737d92d5ba8c8e09a0c6e2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jhonmike/Zf2Acl/zipball/32cdab0155915b120c737d92d5ba8c8e09a0c6e2",
-                "reference": "32cdab0155915b120c737d92d5ba8c8e09a0c6e2",
-                "shasum": ""
-            },
-            "require": {
-                "hounddog/doctrine-data-fixture-module": "0.0.*",
-                "jhonmike/zf2-base": "dev-master",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Zf2Acl": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jhon Mike Soares",
-                    "email": "developer@jhonmike.com.br",
-                    "homepage": "http://www.jhonmike.com.br",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Access control list",
-            "homepage": "https://github.com/jhonmike/Zf2Acl",
-            "keywords": [
-                "acl",
-                "doctrine",
-                "privilege",
-                "resource",
-                "role",
-                "zend"
-            ],
-            "time": "2015-10-13 13:51:20"
-        },
-        {
-            "name": "jhonmike/zf2-base",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jhonmike/Zf2Base.git",
-                "reference": "17ecb7431f759546b8fb0da7a669e4014f6b0642"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jhonmike/Zf2Base/zipball/17ecb7431f759546b8fb0da7a669e4014f6b0642",
-                "reference": "17ecb7431f759546b8fb0da7a669e4014f6b0642",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/doctrine-orm-module": "0.*",
-                "php": ">=5.3.0",
-                "zendframework/zendframework": "2.3.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Zf2Base": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jhon Mike Soares",
-                    "email": "developer@jhonmike.com.br",
-                    "homepage": "http://www.jhonmike.com.br",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Abstracts help class for zend 2",
-            "homepage": "https://github.com/jhonmike/Zf2Base",
-            "keywords": [
-                "crud",
-                "doctrine",
-                "mail",
-                "query",
-                "upload",
-                "zend"
-            ],
-            "time": "2015-10-13 13:33:36"
-        },
-        {
-            "name": "jhonmike/zf2-user",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jhonmike/Zf2User.git",
-                "reference": "efe133a2812dbeaeee804126dfa22a38504c46fb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jhonmike/Zf2User/zipball/efe133a2812dbeaeee804126dfa22a38504c46fb",
-                "reference": "efe133a2812dbeaeee804126dfa22a38504c46fb",
-                "shasum": ""
-            },
-            "require": {
-                "hounddog/doctrine-data-fixture-module": "0.0.*",
-                "jhonmike/zf2-acl": "dev-master",
-                "jhonmike/zf2-base": "dev-master",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Zf2User": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jhon Mike Soares",
-                    "email": "developer@jhonmike.com.br",
-                    "homepage": "http://www.jhonmike.com.br",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Module User and Authentication",
-            "homepage": "https://github.com/jhonmike/Zf2User",
-            "keywords": [
-                "Authentication",
-                "delete",
-                "doctrine",
-                "login",
-                "logout",
-                "register",
-                "user",
-                "zend"
-            ],
-            "time": "2015-10-13 13:45:35"
-        },
-        {
             "name": "symfony/console",
             "version": "v2.7.5",
             "source": {
@@ -1077,6 +927,74 @@
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
             "time": "2015-09-25 08:32:23"
+        },
+        {
+            "name": "zendframework/zend-developer-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/ZendDeveloperTools.git",
+                "reference": "a3399877d69491acdac86e3aead53937c16b0303"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/ZendDeveloperTools/zipball/a3399877d69491acdac86e3aead53937c16b0303",
+                "reference": "a3399877d69491acdac86e3aead53937c16b0303",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "zendframework/zend-debug": "2.*",
+                "zendframework/zend-eventmanager": "2.*",
+                "zendframework/zend-modulemanager": "2.*",
+                "zendframework/zend-mvc": "2.*",
+                "zendframework/zend-servicemanager": "2.*",
+                "zendframework/zend-stdlib": "2.*",
+                "zendframework/zend-version": "2.*",
+                "zendframework/zend-view": "2.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4"
+            },
+            "suggest": {
+                "aist/aist-git-tools": "Show you informations about current GIT repository",
+                "bjyoungblood/bjy-profiler": "Version: dev-master, allows the usage of the (Zend) Db collector.",
+                "doctrine/doctrine-orm-module": "Profile DoctrineORM queries",
+                "jhuet/zdt-logger-module": "Show you log data from Zend\\Log",
+                "ocramius/ocra-service-manager": "OcraServiceManager can help you track dependencies within your application.",
+                "san/san-session-toolbar": "SanSessionToolbar can help you see current Zend\\Session data you're using within your application.",
+                "snapshotpl/zf-snap-event-debugger": "ZfSnapEventDebugger can help you debug events from Zend\\EventManager"
+            },
+            "type": "zf-module",
+            "autoload": {
+                "psr-0": {
+                    "ZendDeveloperTools": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Evan Coury",
+                    "email": "me@evancoury.com",
+                    "homepage": "http://blog.evan.pro/"
+                },
+                {
+                    "name": "Eric Boh",
+                    "email": "cossish@gmail.com"
+                }
+            ],
+            "description": "Module for developer and debug tools for working with the ZF2 MVC layer.",
+            "homepage": "https://github.com/zendframework/ZendDeveloperTools",
+            "keywords": [
+                "debug",
+                "developer",
+                "module",
+                "zf2"
+            ],
+            "time": "2015-07-21 09:14:24"
         },
         {
             "name": "zendframework/zendframework",
@@ -1246,9 +1164,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "jhonmike/zf2-base": 20,
-        "jhonmike/zf2-acl": 20,
-        "jhonmike/zf2-user": 20
+        "zendframework/zend-developer-tools": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -4,10 +4,9 @@ return array(
     'modules' => array(
         'Application',
         'DoctrineModule',
-        'DoctrineORMModule',  
-        'Zf2User',
-        'Zf2Base',
-        'Zf2Acl',
+        'DoctrineORMModule',
+        'DoctrineDataFixtureModule',
+        'ZendDeveloperTools'
     ),
     'module_listener_options' => array(
         'module_paths' => array(
